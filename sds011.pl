@@ -64,8 +64,7 @@ print "Woke up\n";
 chat($port,2,1,1);
 print "Entered query mode \n";
 
-
-sleep(10);
+sleep(30);
 
 #Query data
 my $response=chat($port,4);
