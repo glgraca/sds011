@@ -54,7 +54,6 @@ my $port=new Device::SerialPort($device, 1)
   || die "Cannot open $device: $!\n";
 
 $port->baudrate(9600);
-$port->write_settings();
 
 #Wake up
 chat($port,6,1,1);
