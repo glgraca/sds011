@@ -1,7 +1,7 @@
 # sds011
 SDS011 dust sensor scripts
 
-This script works on a Raspberry Pi and requires package Device::SerialPort.
+This Perl script works on a Raspberry Pi and requires package Device::SerialPort.
 
 The protocol is described in this manual:
 
